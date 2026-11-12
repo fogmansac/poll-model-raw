@@ -808,6 +808,19 @@
    "fetched_at_note": "file modification time at placement; manual download",
    "vintage_note": "Raw polls accompanying the January 2026 ratings update. Discrepancy recorded, not resolved: captioned 'Rawpolls 011226' on the January 2026 page but served under this filename; its byte count matches the 1.95 MB the page advertises",
    "direct_url_note": "direct file URL not captured; page recorded instead"
+  },
+  {
+   "publisher": "silver_bulletin_forecast_2024",
+   "resolved_url": "https://emckowndawson.com/sbreadme24/readme.html",
+   "requested_url": "https://emckowndawson.com/sbreadme24/readme.html",
+   "path": "silver_bulletin_forecast_2024/2026-11-12/readme.html",
+   "fetched_at": "2026-11-12T06:02:50-0800",
+   "bytes": 648870,
+   "sha256": "0bc1962d927fc50f1500a67c6d857b11ef3e990bea872d96a17eeef45f611668",
+   "content_type": "text/html; charset=utf-8",
+   "licence": "not stated",
+   "licence_note": "Looked in the readme text and HTML (no licence or terms; only a Bootstrap/Respond MIT notice for page scaffolding), the author's site home page, and the Silver Bulletin post the readme links to (paywalled). Authors: Eli McKown-Dawson for Silver Bulletin; treat as attribution-required until stated otherwise.",
+   "access_note": "Documentation only. The readme describes 11 data files (poll_average.xlsx, national_topline.xlsx, state_topline.xlsx, pres_pollist.xlsx, ev_probabilities.xlsx, voteshare_probabilities.xlsx, ec_vs_popvote.xlsx, scenario_analysis.xlsx, econ_index.xlsx, forecast_steps.csv, election_paths.csv) but gives no download URL; none was found at the readme's host (404), at eli-mckown-dawson.github.io/sbreadme24/ (same readme, data 404), or on the linked Silver Bulletin forecast post, which says 'This post is for paid subscribers'. No data file was fetched."
   }
  ],
  "failed_fetches": [
