@@ -997,6 +997,20 @@
    "fetch_method": "manual download in a signed-in browser",
    "fetched_at_note": "file modification time at placement; manual download",
    "filename_note": "file names kept as downloaded (capitalised, e.g. Pres_Pollist.xlsx); the readme names lower-case files and lists forecast_steps and election_paths as .csv, but they arrived as .xlsx"
+  },
+  {
+   "publisher": "american_presidency_project",
+   "requested_url": "https://www.presidency.ucsb.edu/statistics/data/election-year-presidential-preferences",
+   "resolved_url": "https://www.presidency.ucsb.edu/statistics/data/election-year-presidential-preferences",
+   "path": "american_presidency_project/2026-11-13/election-year-presidential-preferences.html",
+   "fetched_at": "2026-11-13T12:47:53-0800",
+   "bytes": 56937,
+   "sha256": "4640c87dd915ceac5a871f74819a92f7ddf64e21b895ea388b6726c1656d2357",
+   "content_type": "text/html; charset=utf-8",
+   "fetch_method": "curl (CC-55)",
+   "licence": "not stated; held for private study (The American Presidency Project, UC Santa Barbara)",
+   "licence_note": "Source: The American Presidency Project (Gerhard Peters and John T. Woolley, UCSB), 'Election Year Presidential Preference Polling and Voting Outcome'. Data originator: the Gallup Poll (final pre-election estimates, 1936-2012); the page also carries RealClearPolitics final averages for 2008-2024, which the project's licence discipline says to treat with caution (foundations.md). Not redistributed.",
+   "use_note": "National final-estimate error series (CC-55, measurement only)."
   }
  ],
  "failed_fetches": [
