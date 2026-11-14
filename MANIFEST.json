@@ -487,17 +487,6 @@
    "licence": "CC BY 4.0 (per license field in page JSON-LD)"
   },
   {
-   "publisher": "electoral_vote",
-   "resolved_url": "https://electoral-vote.com/evp2026/Info/data.html",
-   "requested_url": "https://electoral-vote.com/evp2026/Info/data.html",
-   "path": "electoral_vote/2026-11-11/page.html",
-   "fetched_at": "2026-11-11T09:41:19-0800",
-   "bytes": 6863,
-   "sha256": "a00246ecfea811128191d3564a2bf0496cc5d12c5af4fc5d4a0d6e1f5464d0b6",
-   "content_type": "text/html",
-   "licence": "not stated on site (unknown; treat as all rights reserved)"
-  },
-  {
    "publisher": "huggingface",
    "resolved_url": "https://huggingface.co/datasets/pushbuildteam/us-2026-election-polls",
    "requested_url": "https://huggingface.co/datasets/pushbuildteam/us-2026-election-polls",
@@ -529,28 +518,6 @@
    "sha256": "efe65c88dbbb49d01f042c0fb7761e977aec0c7db7fb670c16a43eed394053ef",
    "content_type": "application/json",
    "licence": "CC BY 4.0 (per license field in page JSON-LD)"
-  },
-  {
-   "publisher": "electoral_vote",
-   "resolved_url": "https://electoral-vote.com/evp2026/Pres/pres_polls.csv",
-   "requested_url": "https://electoral-vote.com/evp2026/Pres/pres_polls.csv",
-   "path": "electoral_vote/2026-11-11/pres_polls.csv",
-   "fetched_at": "2026-11-11T09:41:25-0800",
-   "bytes": 2945,
-   "sha256": "8cd8f9a891dc16eda5aa8806c9ee729ac39378ba0a7b0a1033b241e93f7a386a",
-   "content_type": "application/octet-stream",
-   "licence": "not stated on site (unknown; treat as all rights reserved)"
-  },
-  {
-   "publisher": "electoral_vote",
-   "resolved_url": "https://electoral-vote.com/evp2026/Senate/senate_polls.csv",
-   "requested_url": "https://electoral-vote.com/evp2026/Senate/senate_polls.csv",
-   "path": "electoral_vote/2026-11-11/senate_polls.csv",
-   "fetched_at": "2026-11-11T09:41:26-0800",
-   "bytes": 2444,
-   "sha256": "8dcd501517b37f05b8b5a8a52214b5d2f0310296767750d8a8c48e13e3f4558a",
-   "content_type": "application/octet-stream",
-   "licence": "not stated on site (unknown; treat as all rights reserved)"
   },
   {
    "publisher": "huggingface",
@@ -617,39 +584,6 @@
    "sha256": "e16360eac1947c94f135a9cf554652b310716b2fededc7002a7ccc985a8d996c",
    "content_type": "text/tab-separated-values",
    "licence": "CC0 1.0"
-  },
-  {
-   "publisher": "openelections",
-   "resolved_url": "https://api.github.com/orgs/openelections/repos?per_page=100&page=1",
-   "requested_url": "https://api.github.com/orgs/openelections/repos?per_page=100&page=1",
-   "path": "openelections/2026-11-11/github_org_repos_p1.json",
-   "fetched_at": "2026-11-11T09:41:46-0800",
-   "bytes": 596168,
-   "sha256": "342cb9a0cb9697a1a565d45c8e923792e7711c497cd35b774bdb356c8e7841c6",
-   "content_type": "application/json; charset=utf-8",
-   "licence": "per-repo; not verified (GitHub API metadata only)"
-  },
-  {
-   "publisher": "openelections",
-   "resolved_url": "https://api.github.com/orgs/openelections/repos?per_page=100&page=2",
-   "requested_url": "https://api.github.com/orgs/openelections/repos?per_page=100&page=2",
-   "path": "openelections/2026-11-11/github_org_repos_p2.json",
-   "fetched_at": "2026-11-11T09:41:47-0800",
-   "bytes": 215451,
-   "sha256": "501db34c0a72e21fc1cff8734c0dbab0cb7643f7c269d914580330f580af1ed2",
-   "content_type": "application/json; charset=utf-8",
-   "licence": "per-repo; not verified (GitHub API metadata only)"
-  },
-  {
-   "publisher": "openelections",
-   "resolved_url": "https://raw.githubusercontent.com/openelections/openelections-data-ca/master/README.md",
-   "requested_url": "https://raw.githubusercontent.com/openelections/openelections-data-ca/master/README.md",
-   "path": "openelections/2026-11-11/ca_README_sample.md",
-   "fetched_at": "2026-11-11T09:41:49-0800",
-   "bytes": 650,
-   "sha256": "556916495cfa30ffbea21a1ba2e397a4736bebd577ac5bb1b929d7b6e9f23936",
-   "content_type": "text/plain; charset=utf-8",
-   "licence": "per-repo; not verified (GitHub API metadata only)"
   },
   {
    "publisher": "census",
@@ -1058,6 +992,92 @@
    "content_type": "text/html; charset=utf-8",
    "error": "DEAD: 302 redirect to https://abcnews.go.com/politics (HTML, 375419 bytes); not a CSV; discarded",
    "ts": "2026-11-11T09:40:55-0800"
+  }
+ ],
+ "removed_files": [
+  {
+   "publisher": "electoral_vote",
+   "resolved_url": "https://electoral-vote.com/evp2026/Info/data.html",
+   "requested_url": "https://electoral-vote.com/evp2026/Info/data.html",
+   "path": "electoral_vote/2026-11-11/page.html",
+   "fetched_at": "2026-11-11T09:41:19-0800",
+   "bytes": 6863,
+   "sha256": "a00246ecfea811128191d3564a2bf0496cc5d12c5af4fc5d4a0d6e1f5464d0b6",
+   "content_type": "text/html",
+   "licence": "not stated on site (unknown; treat as all rights reserved)",
+   "removed_at": "2026-11-14",
+   "removed_reason": "licence not stated (treated as all rights reserved) and unused by the project; same 2026 polls held under CC BY 4.0 from electionsusa",
+   "removed_by": "CC-60"
+  },
+  {
+   "publisher": "electoral_vote",
+   "resolved_url": "https://electoral-vote.com/evp2026/Pres/pres_polls.csv",
+   "requested_url": "https://electoral-vote.com/evp2026/Pres/pres_polls.csv",
+   "path": "electoral_vote/2026-11-11/pres_polls.csv",
+   "fetched_at": "2026-11-11T09:41:25-0800",
+   "bytes": 2945,
+   "sha256": "8cd8f9a891dc16eda5aa8806c9ee729ac39378ba0a7b0a1033b241e93f7a386a",
+   "content_type": "application/octet-stream",
+   "licence": "not stated on site (unknown; treat as all rights reserved)",
+   "removed_at": "2026-11-14",
+   "removed_reason": "licence not stated (treated as all rights reserved) and unused by the project; same 2026 polls held under CC BY 4.0 from electionsusa",
+   "removed_by": "CC-60"
+  },
+  {
+   "publisher": "electoral_vote",
+   "resolved_url": "https://electoral-vote.com/evp2026/Senate/senate_polls.csv",
+   "requested_url": "https://electoral-vote.com/evp2026/Senate/senate_polls.csv",
+   "path": "electoral_vote/2026-11-11/senate_polls.csv",
+   "fetched_at": "2026-11-11T09:41:26-0800",
+   "bytes": 2444,
+   "sha256": "8dcd501517b37f05b8b5a8a52214b5d2f0310296767750d8a8c48e13e3f4558a",
+   "content_type": "application/octet-stream",
+   "licence": "not stated on site (unknown; treat as all rights reserved)",
+   "removed_at": "2026-11-14",
+   "removed_reason": "licence not stated (treated as all rights reserved) and unused by the project; same 2026 polls held under CC BY 4.0 from electionsusa",
+   "removed_by": "CC-60"
+  },
+  {
+   "publisher": "openelections",
+   "resolved_url": "https://api.github.com/orgs/openelections/repos?per_page=100&page=1",
+   "requested_url": "https://api.github.com/orgs/openelections/repos?per_page=100&page=1",
+   "path": "openelections/2026-11-11/github_org_repos_p1.json",
+   "fetched_at": "2026-11-11T09:41:46-0800",
+   "bytes": 596168,
+   "sha256": "342cb9a0cb9697a1a565d45c8e923792e7711c497cd35b774bdb356c8e7841c6",
+   "content_type": "application/json; charset=utf-8",
+   "licence": "per-repo; not verified (GitHub API metadata only)",
+   "removed_at": "2026-11-14",
+   "removed_reason": "repository metadata and one sample README only, no election data, licence unverified, and unused by the project",
+   "removed_by": "CC-60"
+  },
+  {
+   "publisher": "openelections",
+   "resolved_url": "https://api.github.com/orgs/openelections/repos?per_page=100&page=2",
+   "requested_url": "https://api.github.com/orgs/openelections/repos?per_page=100&page=2",
+   "path": "openelections/2026-11-11/github_org_repos_p2.json",
+   "fetched_at": "2026-11-11T09:41:47-0800",
+   "bytes": 215451,
+   "sha256": "501db34c0a72e21fc1cff8734c0dbab0cb7643f7c269d914580330f580af1ed2",
+   "content_type": "application/json; charset=utf-8",
+   "licence": "per-repo; not verified (GitHub API metadata only)",
+   "removed_at": "2026-11-14",
+   "removed_reason": "repository metadata and one sample README only, no election data, licence unverified, and unused by the project",
+   "removed_by": "CC-60"
+  },
+  {
+   "publisher": "openelections",
+   "resolved_url": "https://raw.githubusercontent.com/openelections/openelections-data-ca/master/README.md",
+   "requested_url": "https://raw.githubusercontent.com/openelections/openelections-data-ca/master/README.md",
+   "path": "openelections/2026-11-11/ca_README_sample.md",
+   "fetched_at": "2026-11-11T09:41:49-0800",
+   "bytes": 650,
+   "sha256": "556916495cfa30ffbea21a1ba2e397a4736bebd577ac5bb1b929d7b6e9f23936",
+   "content_type": "text/plain; charset=utf-8",
+   "licence": "per-repo; not verified (GitHub API metadata only)",
+   "removed_at": "2026-11-14",
+   "removed_reason": "repository metadata and one sample README only, no election data, licence unverified, and unused by the project",
+   "removed_by": "CC-60"
   }
  ]
 }
